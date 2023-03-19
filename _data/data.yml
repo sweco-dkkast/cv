@@ -104,6 +104,11 @@ education:
         details: |
           First batch of people who could call themselves IT Engineers with a very broad foundation, ranging from electronics study to UML.
           Thesis was in creating a complete FOSS application as an alternative to an existing application used for environmental studies in relation to water and it's species.
+      - degree: HHx
+        university: Handelsskolen i Ballerup
+        time: 1994 - 1997
+        details: |
+          Highschool with focus on business related topics.
 experiences:
     title: Work Experiences
     info:
