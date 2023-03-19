@@ -7,92 +7,72 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Kasper Thunø
+    tagline: Experienced Manager and Head of Technology
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: kasper@thuno.info
+    website: thuno.info #do not add http://
+    linkedin: kasperthuno
+    twitter: '@kthuno'
+    pdf: ''
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Danish
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: English
+          level: Fluent
 
         - idiom: Spanish
-          level: Professional
+          level: Basic
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
         - item: Cooking
           link:
 
+        - item: Music
+          link:
+
+        - item: Skiing
+          link:
+
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+          Being the Manager of people and providing Leadership is both a role and a responsibility which I take very seriously and find satisfaction within. I have coupled my knowledge within IT with a Masters degree in Leadership and Management to be able to provide the best possible platform for having an eye on the goals as well as the toolset for motivating people to get there. I am a highly adaptable human being who enjoys learning and gaining new experiences. Also a firm believer of Agile ways-of-working and have proven experience working with empirical approaches. I am motivated by seeing people succeed and enjoy coaching people in their professional journey. 
+
+          My competencies range from the engineering disciplines to economics; from software development to people management - and I use these to ensure a work place where we reach our goals and thrive doing so. I am using these competencies to bridge the gaps in understanding between business and development on all levels. Thriving also means a focus on work/life-balance which is important to me as a Manager, but also to me as an individual. I insists on maintaining this balance as this allows me to be the best version of myself which reflects on my kids and my wife in my personal life.
+
+          I am very capable of working on all layers within the Enterprise as well as understanding the needs of customers and users. I have throughout my career insisted on user involvement. Knowing that users enjoy working with the things I have participated in creating, is the ultimate driver for me.
+
+          I am a person who is both curious and highly adaptable in regards to new challenges, changes and people, and I am able to bridge my knowledge of Technology in to meaningful communication in regards to ensuring the formulated goals within the domain of Digital Transformation.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Masters degree in Management (MITL)
+        university: IT Universitet, Copenhagen
+        time: 2016 - 2018
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          The Master in IT Management is a research-based post-graduate programme that provides the skills necessary to be a competent manager in IT.
+          Thesis was a coorporate comparitive analysis in which way a focus on strategies could ensure the company in driving thier businesses forward.
+      - degree: BSc in Engineering (IT)
+        university: DTU
+        time: 2000 - 2004
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          First batch of people who could call themselves IT Engineers with a very broad foundation, ranging from electronics study to UML.
+          Thesis was in creating a complete FOSS application as an alternative to an existing application used for environmental studies in relation to water and it's species.
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Head of Technology
+        time: 2019 - Present
+        company: Sweco Danmark, Copenhagen
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -218,4 +198,4 @@ skills:
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    
