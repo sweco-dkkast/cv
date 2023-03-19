@@ -13,10 +13,35 @@ sidebar:
 
     # Sidebar links
     email: kasper@thuno.info
+    phone: +45 9137 7229
     website: thuno.info #do not add http://
     linkedin: kasperthuno
     twitter: '@kthuno'
     pdf: ''
+
+    competencies:
+      title: Competencies
+      info:
+        - type: People Management
+          desc: Proven experience as Manager of teams in relation to development and operations of products and projects. Substantial experience in recruiting and cross-border sourcing.
+
+        - type: Strategic Management
+          desc: Working with strategic management on multiple enterprise levels.
+
+        - type: Digital Transformation Strategist
+          desc: Driving a divisional digital transformation effort and participating in developing the Enterprise Digitalization Strategy and driving a local agile transformation strategy.
+
+        - type: Software Development
+          desc: Extensive experience in designing and developing IT solutions.
+
+        - type: Product Management
+          desc: Thourough experience in handling stakeholders, budgets and value creation using Agile approaches.
+
+        - type: Project Management
+          desc: Project Manager on mid-range and large projects in the public sector spanning municipalities and government.
+
+        - type: Operations
+          desc: 10+ years working with on-prem operations and hosting. 5+ years working with Cloud-based services.          
 
     languages:
       title: Languages
@@ -42,6 +67,12 @@ sidebar:
         - item: Skiing
           link:
 
+        - item: Travelling
+          link:
+
+        - item: Technology
+          link:
+
 career-profile:
     title: Profile
     summary: |
@@ -55,7 +86,7 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: Masters degree in Management (MITL)
+      - degree: Masters degree in Management and Leadership (MITL)
         university: IT Universitet, Copenhagen
         time: 2016 - 2018
         details: |
@@ -74,65 +105,103 @@ experiences:
         time: 2019 - Present
         company: Sweco Danmark, Copenhagen
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Responsible for CoreTECH department consisting of 35 people divided into 5 teams which handles development and operations of a 10+ portfolio range of products spread out on three departments within the division. Members of the teams are both internally employed and in-sourced (Hanoi). Responsible for driving the digitalisation efforts within the division.
+            - People Management
+            - Change Management
+            - Strategic Planning
+      - role: Product Owner
+        time: 2014 - 2019
+        company: Grontmij, Glostrup
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Handling product ownership (Scrum) for 3 products with 20+ customers and internal stakeholders. Overall responsible for product development and related budgets. Focus on value creation and user involvement.
+            - Product Strategy
+            - Sales and budgetting
+            - User involvement
+      - role: Product Owner
+        time: 2013 - 2014
+        company: Informi GIS, Charlottenlund
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Handling a mixture of project- and product management in regards to customer proces and needs. Internally using Scrum on all layers of the Enterprise and handling a team 12 people in 3 locations, one of which in Kiev, Ukraine. Focus on customer requirements. Customers representing both private and public sector.
+            - Scrum
+            - Customer focus strategy
+            - Change Management
+      - role: Developer, Consultant and Project Manager
+        time: 2004 - 2013
+        company: Informi GIS, Charlottenlund
+        details: |
+          Software developer with focus on backend code and SoA. Implementation and solution consultant. Furthermore working as active Project Manager for a number of large clients.
+            - Technical Integrations
+            - Project Management
+            - Solution Architecture
+            - Fullstack development
+      - role: IT Supporter
+        time: 1997 - 1999
+        company: Ruko (Assa Abloy), Herlev
+        details: |
+          Fulfiling various support functions in relation to IT, e.g. program installation and troubleshooting.
+            - Windows sysprep
+            - Networking
+            - Application Management
+      - role: Partner
+        time: 1997 - 2003
+        company: Frugaard Data, Smørum
+        details: |
+          Partner of co-owned company working with assembling and selling PCs for private customers.
+            - Contract handling
+            - Logistics
+            - Hardware assembly
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro:
+      Considerable projects I have been involved in.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Agile Transformation
+        link: ""
+        tagline: "Driving internal change and breakdown of established silos."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Portfolio Management & Governance
+        link: ""
+        tagline: "Restructuring the basis for decisions for investments in the product portfolio."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Geotransit
+        link: ""
+        tagline: "Developing the platform for public transportation used by the largest contractor in Denmark"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Danmarks Miljøportal
+        link: ""
+        tagline: "Contributing with GIS knowledge for building the platform."
+otherexp:
+    title: Boards and volunteering
+    info:
+      - role: Board member
+        time: 2023 - Present
+        company: Fonden af 1973, Copenhagen
+        details: |
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - role: Volunteer
+        time: 2022 - Present
+        company: Kulturhus Fjordglimt, Jyllinge
+        details: |
+
+      - role: Chair of School Board
+        time: 2018 - Present
+        company: Margetheskolen, Roskilde
+        details: |
+
+      - role: Vice chair of School Board
+        time: 2012 - 2015
+        company: Baunehøjskolen, Jyllinge
+        details: |
+          
+      - role: Vice chair of Board
+        time: 2007 - 2010
+        company: Grundejerforeningen Kirsebærvangen, Smørum
+        details: |
+
+      - role: Volunteer
+        time: 2005 - Present
+        company: Red Barnet, Copenhagen
+        details: |
 
 oss:
     title: OSS Contributions
@@ -179,23 +248,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+
+      - name: Scrum
+        level: 100%
+
+      - name: Java
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Web development
+        level: 72%
 
-      - name: Angular
-        level: 98%
+      - name: PostgreSQL/MySQL
+        level: 56%
 
-      - name: HTML5 & CSS
+      - name: Object-oriented design
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Solution Architecture
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    
+footer: 
