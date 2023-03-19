@@ -1,37 +1,19 @@
 {% assign otherexp = site.data.data.otherexp %}
 {% if otherexp %}
-<section class="section experiences-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ otherexp.title }}
-  </h2>
+<section class="project-section py-3">
+  <h3 class="text-uppercase resume-section-heading mb-4"> {{ otherexp.title }}</h3>
 
-  {% for experience in otherexp.info %}
-  <div class="item">
-
-    <div class="meta">
-
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
-
-      <div class="company">{{ experience.company }}</div>
-
-    </div><!--//meta-->
-
-    {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
-
+  {% for project in otherexp.info %}
+  <div class="item mb-3">
+    <div class="item-heading row align-items-center mb-2">
+      <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">{{ project.role }}</h4>
+      <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">{{ project.time }}</div>
+    </div>
+    <div class="item-content">
+      <p>{{ project.company }}</p>
+    </div>
   </div><!--//item-->
   {% endfor %}
 
 </section><!--//section-->
 {% endif %}
-

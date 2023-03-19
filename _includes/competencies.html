@@ -1,19 +1,18 @@
-{% assign competencies = site.data.data.sidebar.competencies %}
+{% assign competencies = site.data.data.main.competencies %}
 {% if competencies %}
-<div class="languages-container container-block">
+<section class="skills-section py-3">
+  <h3 class="text-uppercase resume-section-heading mb-4">{{ competencies.title }}</h3>
+  <div class="item">
+    <ul class="list-unstyled resume-skills-list">
 
-  <h2 class="container-block-title">
-    {{ competencies.title }}
-  </h2>
-
-  <ul class="list-unstyled interests-list">
-    {% for comp in competencies.info %}
-    <li>
-      {{ comp.type }}
-      <p class="lang-desc">{{ comp.desc }}</p>
-    </li>
-    {% endfor %}
-  </ul>
-
-</div><!--//interests-->
+      {% for skill in competencies.info %}
+      <li>
+        <p><b>{{ skill.type }}</b><br />
+        <small style="font-style: italic;">{{ skill.desc }}</small><br />
+        <small>Experience: {{ skill.level }}</small>
+        </p></li>
+      {% endfor %}
+    </ul>
+  </div><!--//item-->
+</section><!--//skills-section-->
 {% endif %}

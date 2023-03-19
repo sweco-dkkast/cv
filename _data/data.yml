@@ -1,47 +1,53 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
+main:
+    contact:
+      # Profile information
+      name: Kasper Thunø
+      tagline: Experienced Manager & Head of Technology
+      avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-
-    # Profile information
-    name: Kasper Thunø
-    tagline: Experienced Manager and Head of Technology
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-    # Sidebar links
-    email: kasper@thuno.info
-    phone: +45 9137 7229
-    website: thuno.info #do not add http://
-    linkedin: kasperthuno
-    twitter: '@kthuno'
-    pdf: 'cv.pdf'
+      # Sidebar links
+      email: kasper@thuno.info
+      phone: +45 9137 7229
+      address: Flådevej 49, 4040 Jyllinge
+      website: https://thuno.info 
+      linkedin: linkedin.com/in/kasperthuno
+      twitter: twitter.com/kthuno
+      github: github.com/kthuno
+      pdf: 'cv.pdf'
 
     competencies:
       title: Competencies
       info:
         - type: People Management
           desc: Proven experience as Manager of teams in relation to development and operations of products and projects. Substantial experience in recruiting and cross-border sourcing.
+          level: 9 years
 
         - type: Strategic Management
           desc: Working with strategic management on multiple enterprise levels.
+          level: 5 years
 
         - type: Digital Transformation Strategist
           desc: Driving a divisional digital transformation effort and participating in developing the Enterprise Digitalization Strategy and driving a local agile transformation strategy.
+          level: 3 years
 
         - type: Software Development
           desc: Extensive experience in designing and developing IT solutions.
+          level: 10+ years
 
         - type: Product Management
           desc: Thourough experience in handling stakeholders, budgets and value creation using Agile approaches.
+          level: 6 years
 
         - type: Project Management
           desc: Project Manager on mid-range and large projects in the public sector spanning municipalities and government.
+          level: 7 years
 
         - type: Operations
-          desc: 10+ years working with on-prem operations and hosting. 5+ years working with Cloud-based services.          
+          desc: Working with on-prem operations and hosting. 5+ years working with Cloud-based services.     
+          level: 4 years     
 
     languages:
       title: Languages
@@ -86,11 +92,11 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: Masters degree in Management and Leadership (MITL)
+      - degree: Masters degree, MITL
         university: IT Universitet, Copenhagen
         time: 2016 - 2018
         details: |
-          The Master in IT Management is a research-based post-graduate programme that provides the skills necessary to be a competent manager in IT.
+          The Master in IT Management and Leadership is a research-based post-graduate programme that provides the skills necessary to be a competent manager in IT.
           Thesis was a coorporate comparitive analysis in which way a focus on strategies could ensure the company in driving thier businesses forward.
       - degree: BSc in Engineering (IT)
         university: DTU
@@ -99,11 +105,11 @@ education:
           First batch of people who could call themselves IT Engineers with a very broad foundation, ranging from electronics study to UML.
           Thesis was in creating a complete FOSS application as an alternative to an existing application used for environmental studies in relation to water and it's species.
 experiences:
-    title: Experiences
+    title: Work Experiences
     info:
       - role: Head of Technology
         time: 2019 - Present
-        company: Sweco Danmark, Copenhagen
+        company: Sweco, København
         details: |
           Responsible for CoreTECH department consisting of 35 people divided into 5 teams which handles development and operations of a 10+ portfolio range of products spread out on three departments within the division. Members of the teams are both internally employed and in-sourced (Hanoi). Responsible for driving the digitalisation efforts within the division.
             - People Management
@@ -171,78 +177,31 @@ projects:
         link: ""
         tagline: "Contributing with GIS knowledge for building the platform."
 otherexp:
-    title: Boards and volunteering
+    title: Boards & Volunteering
     info:
       - role: Board member
         time: 2023 - Present
         company: Fonden af 1973, Copenhagen
-        details: |
 
       - role: Volunteer
         time: 2022 - Present
         company: Kulturhus Fjordglimt, Jyllinge
-        details: |
 
       - role: Chair of School Board
         time: 2018 - Present
         company: Margetheskolen, Roskilde
-        details: |
 
       - role: Vice chair of School Board
         time: 2012 - 2015
         company: Baunehøjskolen, Jyllinge
-        details: |
           
       - role: Vice chair of Board
         time: 2007 - 2010
         company: Grundejerforeningen Kirsebærvangen, Smørum
-        details: |
 
       - role: Volunteer
         time: 2005 - Present
         company: Red Barnet, Copenhagen
-        details: |
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
